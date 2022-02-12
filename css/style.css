@@ -140,3 +140,49 @@ font-family: 'Gilroy-Medium', sans-serif;
 .about_me__descr:last-child {
   margin-bottom: 0;
 }
+
+/* ---------------Skills-------------- */
+
+
+.skills__container {
+  padding: 91px 15px 110px 15px;
+  text-align: center;
+}
+.skills__title {
+  margin-bottom: 69px;
+}
+.skills__descr {
+  display: inline-block;
+  margin-bottom: 83px;
+}
+.skills__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills__item {
+  flex-basis: 166px;
+  margin-bottom: 20px;
+}
+.skills__image {
+  margin-bottom: 24px;
+}
+.skill__item-descr {
+  display: inline-block;
+  max-width: 80px;
+  min-height: 34px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  line-height: calc(17 / 14 * 100%);
+  color: #828282;
+}
+.skill__item-descr:not(:last-child) {
+  min-height: 30px;
+}
+.skills__stars {
+  display: flex;
+  justify-content: space-between;
+}
+.skill__star.opac {
+  opacity: 0.2;
+}
