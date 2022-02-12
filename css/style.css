@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+/* 
+font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+*/
+
+/* --------------Header---------------------- */
+.header__container {
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+.header__container::after {
+  content: '';
+  height: 1px;
+  width: calc(100% - 30px);
+  position: absolute;
+  background-color: #828282;
+  bottom: 0;
+}
+.menu {
+  width: 100%;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu__link {
+  color: #828282;
+  transition: 0.3s linear;
+}
+.menu__link.active {
+  color: #000;
+}
+
+.menu__link:hover {
+  color: #000;
+}
+
+
+/* --------------LOGO---------------------- */
+
+.logo__author {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 49px;
+}
+.logo__name {
+  flex-basis: 123px;
+  font-size: 47.3392px;
+  line-height: calc(59 / 47 * 100%);
+}
+.logo__descr {
+  flex-basis: 155px;
+  line-height: calc(22 / 18 * 100%);
+  font-family: Gilroy-Medium;
+}
+.switch__lang {
+  color: #828282;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-end;
+  height: 63px;
+}
+.switch__line {
+  color: #000;
+  margin: 0 5px;
+}
+.language {
+  transition: 0.3s linear;
+}
+.language.active {
+  color: #000;
+}
+.language:hover {
+  color: #000;
+}
+.logo__image {
+  max-width: 100%;
+  margin-bottom: 100px;
+}
+.logo__img {
+  width: 100%;
+  box-shadow: 0 5px 5px #828282;
+}
+
+/* -----------------about-me---------------------- */
+
+.about-me {
+  padding: 120px 15px 107px 15px;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+.title {
+  font-size: 34px;
+  line-height: calc(42 / 34 * 100%);
+}
+.about-me__title {
+  margin-bottom: 35px;
+}
+.about-me__wrapper {
+  max-width: 480px;
+  margin: 0 auto;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: calc(22 / 18 * 100%);
+}
+.about_me__descr {
+  margin-bottom: 59px;
+}
+.about_me__descr:last-child {
+  margin-bottom: 0;
+}
