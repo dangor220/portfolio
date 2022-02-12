@@ -186,3 +186,27 @@ font-family: 'Gilroy-Medium', sans-serif;
 .skill__star.opac {
   opacity: 0.2;
 }
+
+
+
+/* --------------Portfolio-------------- */
+
+
+.portfolio {
+  padding-top: 112px;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+.portfolio__title {
+  margin-bottom: 47px;
+}
+.portfolio__image {
+  margin-bottom: 45px;
+  width: 100%;
+}
+.portfolio__descr {
+  display: inline-block;
+  margin-bottom: 99px;
+  font-family: Gilroy-Medium;
+  text-decoration-line: underline;
+}
